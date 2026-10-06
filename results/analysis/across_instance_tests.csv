@@ -1,0 +1,19 @@
+condition,baseline,metric,n_instances,tbr_median_of_medians,base_median_of_medians,p,test
+tight,RECOMPUTE,total_D,13,7.5,455.0,0.000244140625,wilcoxon
+tight,RECOMPUTE,total_W,13,280.5,10509.0,0.000244140625,wilcoxon
+tight,RECOMPUTE,periods_added,13,0.5,0.0,1.0,wilcoxon
+tight,SINGLE,total_D,13,7.5,6.5,0.0625,wilcoxon
+tight,SINGLE,total_W,13,280.5,237.5,0.001953125,wilcoxon
+tight,SINGLE,periods_added,13,0.5,1.0,0.03125,wilcoxon
+tight,ONE_BLOCKER,total_D,13,7.5,7.0,0.25,wilcoxon
+tight,ONE_BLOCKER,total_W,13,280.5,280.5,0.5,wilcoxon
+tight,ONE_BLOCKER,periods_added,13,0.5,0.5,,no difference
+official,RECOMPUTE,total_D,13,6.5,455.0,0.000244140625,wilcoxon
+official,RECOMPUTE,total_W,13,270.5,10509.0,0.000244140625,wilcoxon
+official,RECOMPUTE,periods_added,13,0.0,0.0,0.5,wilcoxon
+official,SINGLE,total_D,13,6.5,6.5,0.5,wilcoxon
+official,SINGLE,total_W,13,270.5,237.5,0.0625,wilcoxon
+official,SINGLE,periods_added,13,0.0,0.0,0.25,wilcoxon
+official,ONE_BLOCKER,total_D,13,6.5,6.5,1.0,wilcoxon
+official,ONE_BLOCKER,total_W,13,270.5,270.5,,no difference
+official,ONE_BLOCKER,periods_added,13,0.0,0.0,,no difference

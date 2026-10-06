@@ -1,0 +1,13 @@
+{
+  "config": {
+    "instance": "car-s-91",
+    "condition": "tight",
+    "seed": 10,
+    "method": "TBRPLUS"
+  },
+  "hashes": [
+    "ad976cc37f2cda22ef6638175014665ab85d593bb16b356ea76153f4550c89d9",
+    "ad976cc37f2cda22ef6638175014665ab85d593bb16b356ea76153f4550c89d9"
+  ],
+  "identical": true
+}

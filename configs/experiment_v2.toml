@@ -1,0 +1,46 @@
+# Addendum A (docs/preregistration_addendum_v2.md): fresh evaluation population for TBR+.
+
+[output]
+dir = "results/v2"
+
+[data]
+toronto_dir = "data/raw/toronto"
+instances = ["car-f-92", "car-s-91", "ear-f-83", "hec-s-92", "kfu-s-93", "lse-f-91",
+             "pur-s-93", "rye-s-93", "sta-f-83", "tre-s-92", "uta-s-92", "ute-s-92",
+             "yor-f-83"]
+
+[streams]
+T = 200
+seeds = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+conditions = ["tight", "official"]
+methods = ["TBRPLUS", "TBR", "SINGLE", "ONE_BLOCKER", "RECOMPUTE", "TBRPLUS_N20000"]
+headline_budget = 8
+
+[determinism]
+instance = "car-s-91"
+condition = "tight"
+seed = 10
+method = "TBRPLUS"
+
+[oracle]
+method = "TBRPLUS"
+instances = ["hec-s-92", "sta-f-83", "yor-f-83", "ute-s-92", "ear-f-83", "tre-s-92"]
+condition = "tight"
+seeds = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+time_limit_s = 20.0
+workers = 2
+solver_seed = 0
+
+[scaling]
+sizes = [500, 1000, 2000, 4000, 8000]
+seeds = [3, 4, 5]
+T = 200
+students_per_exam = 8
+methods = ["TBRPLUS", "RECOMPUTE"]
+recompute_run_cap_s = 1800
+
+[memory]
+method = "TBRPLUS"
+events_per_instance = 50
+seed = 1
+condition = "tight"

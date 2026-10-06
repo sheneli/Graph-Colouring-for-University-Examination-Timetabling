@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "examrepair"
+version = "1.0.0"
+description = "Graph-colouring examination timetabling with disruption-budgeted repair after late enrolments (CMP 7002 project)."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Thulmin Jayawardena" }]
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "ortools>=9.10",
+  "matplotlib>=3.8",
+  "networkx>=3.2",
+  "pandas>=2.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

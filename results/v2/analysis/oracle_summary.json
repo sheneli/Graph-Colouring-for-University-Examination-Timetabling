@@ -1,0 +1,168 @@
+{
+  "clash_events": 354,
+  "solved": 350,
+  "unresolved": 4,
+  "status_counts": {
+    "OPTIMAL": 349,
+    "UNKNOWN": 3,
+    "FEASIBLE": 1,
+    "INFEASIBLE": 1
+  },
+  "tier_counts": {
+    "single": 273,
+    "double": 36,
+    "search": 25,
+    "new_period": 17,
+    "kempe": 3
+  },
+  "lex_opt_rate_all_solved": 0.9628571428571429,
+  "lex_opt_n_all": 337,
+  "nontrivial_solved": 77,
+  "lex_opt_rate_nontrivial": 0.8311688311688312,
+  "lex_opt_n_nontrivial": 64,
+  "dstar_le2_events": 309,
+  "q1_all_exact": true,
+  "dstar_distribution": {
+    "1.0": 273,
+    "2.0": 36,
+    "3.0": 18,
+    "4.0": 14,
+    "5.0": 2,
+    "7.0": 2,
+    "8.0": 4
+  },
+  "suboptimal_events": [
+    {
+      "instance": "hec-s-92",
+      "seed": 14,
+      "t": 67,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 10,
+      "t": 177,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 8.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 15,
+      "t": 198,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 8.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 18,
+      "t": 77,
+      "tier": "kempe",
+      "tbr_dk": 0,
+      "tbr_D": 6,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 18,
+      "t": 136,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 7.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 19,
+      "t": 122,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 10,
+      "t": 138,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 11,
+      "t": 157,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 5.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 13,
+      "t": 126,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 17,
+      "t": 15,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 8.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 19,
+      "t": 121,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 8.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 11,
+      "t": 146,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 5.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 12,
+      "t": 43,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 7.0
+    }
+  ],
+  "oracle_time_s_median": 0.656,
+  "oracle_time_s_max": 20.029
+}

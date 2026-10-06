@@ -1,0 +1,25 @@
+condition,baseline,metric,n_instances,tbr_median_of_medians,base_median_of_medians,p,test
+tight,RECOMPUTE,total_D,13,7.5,509.5,0.000244140625,wilcoxon
+tight,RECOMPUTE,total_W,13,366.5,11844.0,0.000244140625,wilcoxon
+tight,RECOMPUTE,periods_added,13,0.0,0.0,0.0625,wilcoxon
+tight,SINGLE,total_D,13,7.5,7.0,0.0078125,wilcoxon
+tight,SINGLE,total_W,13,366.5,254.0,0.015625,wilcoxon
+tight,SINGLE,periods_added,13,0.0,0.0,0.03125,wilcoxon
+tight,ONE_BLOCKER,total_D,13,7.5,7.0,0.0078125,wilcoxon
+tight,ONE_BLOCKER,total_W,13,366.5,274.0,0.015625,wilcoxon
+tight,ONE_BLOCKER,periods_added,13,0.0,0.0,0.0625,wilcoxon
+tight,TBR,total_D,13,7.5,7.0,0.015625,wilcoxon
+tight,TBR,total_W,13,366.5,289.0,0.03125,wilcoxon
+tight,TBR,periods_added,13,0.0,0.0,0.125,wilcoxon
+official,RECOMPUTE,total_D,13,7.0,509.5,0.000244140625,wilcoxon
+official,RECOMPUTE,total_W,13,324.5,11844.0,0.000244140625,wilcoxon
+official,RECOMPUTE,periods_added,13,0.0,0.0,0.5,wilcoxon
+official,SINGLE,total_D,13,7.0,7.0,0.0625,wilcoxon
+official,SINGLE,total_W,13,324.5,250.5,0.125,wilcoxon
+official,SINGLE,periods_added,13,0.0,0.0,0.25,wilcoxon
+official,ONE_BLOCKER,total_D,13,7.0,7.0,0.125,wilcoxon
+official,ONE_BLOCKER,total_W,13,324.5,281.5,0.25,wilcoxon
+official,ONE_BLOCKER,periods_added,13,0.0,0.0,0.5,wilcoxon
+official,TBR,total_D,13,7.0,7.0,0.125,wilcoxon
+official,TBR,total_W,13,324.5,282.5,0.25,wilcoxon
+official,TBR,periods_added,13,0.0,0.0,,no difference

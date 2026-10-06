@@ -1,0 +1,43 @@
+# Pre-registered experiment configuration (docs/preregistration.md). Do not edit after the
+# final runs without recording a deviation in docs/deviations.md.
+
+[data]
+toronto_dir = "data/raw/toronto"
+instances = ["car-f-92", "car-s-91", "ear-f-83", "hec-s-92", "kfu-s-93", "lse-f-91",
+             "pur-s-93", "rye-s-93", "sta-f-83", "tre-s-92", "uta-s-92", "ute-s-92",
+             "yor-f-83"]
+
+[streams]
+T = 200
+seeds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+conditions = ["tight", "official"]
+methods = ["TBR", "SINGLE", "ONE_BLOCKER", "RECOMPUTE", "TBR_NOPROX", "TBR_NOT2",
+           "TBR_B2", "TBR_B4", "TBR_B16", "TBR_B32"]
+headline_budget = 8
+
+[determinism]
+instance = "car-s-91"
+condition = "tight"
+seed = 0
+method = "TBR"
+
+[oracle]
+instances = ["hec-s-92", "sta-f-83", "yor-f-83", "ute-s-92", "ear-f-83", "tre-s-92"]
+condition = "tight"
+seeds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+time_limit_s = 20.0
+workers = 2
+solver_seed = 0
+
+[scaling]
+sizes = [500, 1000, 2000, 4000, 8000]
+seeds = [0, 1, 2]
+T = 200
+students_per_exam = 8
+methods = ["TBR", "RECOMPUTE"]
+recompute_run_cap_s = 1800
+
+[memory]
+events_per_instance = 50
+seed = 0
+condition = "tight"

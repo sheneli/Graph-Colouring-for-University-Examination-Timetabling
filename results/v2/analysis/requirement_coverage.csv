@@ -1,0 +1,19 @@
+id,requirement,measured,met,evidence
+H1,Every exam has exactly one period after every event,318000 events checked; streams valid=True,True,results/stream_summary.csv; results/scaling_summary.csv (IncrementalChecker)
+H2,No student clash after every event (independent checker),318000 events; 0 violations,True,examrepair/validate.py; results/stream_summary.csv
+H3,No event moves more than B exams,"max D per method: TBR=6, SINGLE=1, ONE_BLOCKER=2, TBRPLUS=6, TBRPLUS_N20000=8",True,results/stream_summary.csv
+H4,Invalid input rejected without state change,8 validation tests passed=True,True,results/tests/junit.xml
+H5,Every event completes (no crash/time-out),1560 streams x 200 events + 30 scaling streams completed,True,results/logs/*.log; stream_summary.csv
+H6,Deterministic decisions,hashes identical=True,True,results/determinism.json
+Q1,Exact whenever D* <= 2,309 events with D*<=2; all exact=True,True,results/oracle_events.csv
+Q2,>=95% lexicographic optimality vs oracle,337/350 = 0.9629 (non-trivial subset: 64/77),True,results/analysis/oracle_summary.json
+Q3,Fewer exams moved than recomputation (every instance; across-instance p<0.05),"every instance=True; across-instance p=2.44e-04, 2.44e-04",True,results/analysis/across_instance_tests.csv
+Q4,"No more periods added than single-move baseline (median, every instance)",holds on all 26 instance-conditions=True,True,results/analysis/per_instance_method.csv
+Q5,"Fewer students affected than recomputation (median, every instance)",True,True,results/analysis/per_instance_method.csv
+Q6,"Repair-induced proximity change <= +5% (median, every instance)",max median = -0.0005,True,results/analysis/per_instance_method.csv
+P1,Median TBR clash latency <= 5 ms (every instance),max median = 227.1 us,True,results/analysis/latency_clash_events.csv
+P2,p95 TBR clash latency <= 50 ms (every instance),max p95 = 22755.2 us,True,results/analysis/latency_clash_events.csv
+P3,"TBR >= 10x faster than recomputation (median, every instance)",min ratio = 9.1x,False,results/analysis/latency_clash_events.csv
+P4,Median TBR clash latency <= 10 ms at n = 8000,380.8 us,True,results/analysis/scaling_latency.csv
+P5,Peak repair working memory <= 1 MiB,max = 43960 bytes over 557 events,True,results/analysis/memory_table.csv
+R1,Correct on edge-case structures,63 tests passed=True,True,results/tests/junit.xml

@@ -1,0 +1,265 @@
+{
+  "clash_events": 321,
+  "solved": 320,
+  "unresolved": 1,
+  "status_counts": {
+    "OPTIMAL": 320,
+    "UNKNOWN": 1
+  },
+  "tier_counts": {
+    "single": 255,
+    "double": 39,
+    "new_period": 23,
+    "kempe": 4
+  },
+  "lex_opt_rate_all_solved": 0.928125,
+  "lex_opt_n_all": 297,
+  "nontrivial_solved": 65,
+  "lex_opt_rate_nontrivial": 0.6461538461538462,
+  "lex_opt_n_nontrivial": 42,
+  "dstar_le2_events": 294,
+  "q1_all_exact": true,
+  "dstar_distribution": {
+    "1.0": 255,
+    "2.0": 39,
+    "3.0": 11,
+    "4.0": 8,
+    "5.0": 3,
+    "6.0": 3,
+    "8.0": 1
+  },
+  "suboptimal_events": [
+    {
+      "instance": "hec-s-92",
+      "seed": 1,
+      "t": 94,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 5.0
+    },
+    {
+      "instance": "hec-s-92",
+      "seed": 3,
+      "t": 175,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 2,
+      "t": 8,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 2,
+      "t": 45,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 3,
+      "t": 197,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 5.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 4,
+      "t": 69,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 5,
+      "t": 105,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 6,
+      "t": 52,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "yor-f-83",
+      "seed": 7,
+      "t": 38,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 6.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 1,
+      "t": 22,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 1,
+      "t": 141,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 1,
+      "t": 176,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 2,
+      "t": 107,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 8.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 4,
+      "t": 25,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 4,
+      "t": 48,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 6.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 6,
+      "t": 170,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "ear-f-83",
+      "seed": 7,
+      "t": 146,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 2,
+      "t": 88,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 5.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 2,
+      "t": 182,
+      "tier": "kempe",
+      "tbr_dk": 0,
+      "tbr_D": 4,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 5,
+      "t": 148,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 6.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 7,
+      "t": 120,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 4.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 9,
+      "t": 57,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    },
+    {
+      "instance": "tre-s-92",
+      "seed": 9,
+      "t": 140,
+      "tier": "new_period",
+      "tbr_dk": 1,
+      "tbr_D": 1,
+      "oracle_status": "OPTIMAL",
+      "d_star": 3.0
+    }
+  ],
+  "oracle_time_s_median": 0.617,
+  "oracle_time_s_max": 20.002
+}

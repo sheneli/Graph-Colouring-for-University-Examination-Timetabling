@@ -1,0 +1,313 @@
+condition,baseline,metric,instance,tbr_median,base_median,median_paired_diff,p,test,p_holm
+tight,RECOMPUTE,total_D,car-f-92,6.0,615.0,-607.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,car-s-91,9.5,1404.5,-1395.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,ear-f-83,11.0,278.0,-268.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,hec-s-92,3.5,18.5,-14.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,kfu-s-93,6.5,85.0,-79.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,lse-f-91,12.5,509.5,-496.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,pur-s-93,11.0,3634.5,-3621.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,rye-s-93,4.5,179.0,-175.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,sta-f-83,1.0,16.0,-14.0,0.03125,wilcoxon,0.03125
+tight,RECOMPUTE,total_D,tre-s-92,9.5,720.5,-713.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,uta-s-92,7.5,698.5,-690.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,ute-s-92,3.0,31.5,-28.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_D,yor-f-83,16.5,595.5,-579.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,car-f-92,607.0,40397.0,-39850.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,car-s-91,736.5,78304.5,-77645.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,ear-f-83,430.0,8868.5,-8517.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,hec-s-92,269.0,854.0,-656.5,0.009765625,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,kfu-s-93,90.0,1875.5,-1799.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,lse-f-91,294.0,10892.0,-10612.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,pur-s-93,445.0,93226.0,-92697.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,rye-s-93,229.5,11844.0,-11613.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,sta-f-83,8.5,600.0,-585.5,0.03125,wilcoxon,0.03125
+tight,RECOMPUTE,total_W,tre-s-92,496.5,30803.5,-30430.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,uta-s-92,512.5,35703.5,-35117.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,ute-s-92,117.5,1784.5,-1695.0,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,total_W,yor-f-83,366.5,16970.5,-16614.5,0.001953125,wilcoxon,0.025390625
+tight,RECOMPUTE,periods_added,car-f-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,RECOMPUTE,periods_added,car-s-91,0.0,0.5,0.0,0.5,wilcoxon,1.0
+tight,RECOMPUTE,periods_added,ear-f-83,0.5,1.0,-1.0,0.015625,wilcoxon,0.15625
+tight,RECOMPUTE,periods_added,hec-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+tight,RECOMPUTE,periods_added,kfu-s-93,0.0,0.0,0.0,,no difference,
+tight,RECOMPUTE,periods_added,lse-f-91,0.0,1.5,-1.5,0.015625,wilcoxon,0.15625
+tight,RECOMPUTE,periods_added,pur-s-93,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,RECOMPUTE,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+tight,RECOMPUTE,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+tight,RECOMPUTE,periods_added,tre-s-92,0.0,1.0,-0.5,0.0625,wilcoxon,0.4375
+tight,RECOMPUTE,periods_added,uta-s-92,0.0,0.0,0.0,0.25,wilcoxon,1.0
+tight,RECOMPUTE,periods_added,ute-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+tight,RECOMPUTE,periods_added,yor-f-83,0.0,1.5,-1.0,0.03125,wilcoxon,0.25
+tight,SINGLE,total_D,car-f-92,6.0,5.0,0.0,0.125,wilcoxon,0.875
+tight,SINGLE,total_D,car-s-91,9.5,7.5,0.5,0.0625,wilcoxon,0.5
+tight,SINGLE,total_D,ear-f-83,11.0,8.5,3.0,0.0078125,wilcoxon,0.09375
+tight,SINGLE,total_D,hec-s-92,3.5,2.0,1.0,0.03125,wilcoxon,0.3125
+tight,SINGLE,total_D,kfu-s-93,6.5,6.5,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,total_D,lse-f-91,12.5,10.0,0.0,0.125,wilcoxon,0.875
+tight,SINGLE,total_D,pur-s-93,11.0,11.0,0.0,1.0,wilcoxon,1.0
+tight,SINGLE,total_D,rye-s-93,4.5,4.5,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,total_D,sta-f-83,1.0,1.0,0.0,,no difference,
+tight,SINGLE,total_D,tre-s-92,9.5,8.0,1.0,0.03125,wilcoxon,0.3125
+tight,SINGLE,total_D,uta-s-92,7.5,7.0,0.0,0.25,wilcoxon,1.0
+tight,SINGLE,total_D,ute-s-92,3.0,3.0,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,total_D,yor-f-83,16.5,11.0,4.5,0.0078125,wilcoxon,0.09375
+tight,SINGLE,total_W,car-f-92,607.0,390.0,0.0,0.125,wilcoxon,0.875
+tight,SINGLE,total_W,car-s-91,736.5,544.5,15.0,0.0625,wilcoxon,0.5
+tight,SINGLE,total_W,ear-f-83,430.0,241.0,115.0,0.0078125,wilcoxon,0.09375
+tight,SINGLE,total_W,hec-s-92,269.0,193.5,57.5,0.03125,wilcoxon,0.3125
+tight,SINGLE,total_W,kfu-s-93,90.0,90.0,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,total_W,lse-f-91,294.0,268.0,0.0,0.125,wilcoxon,0.875
+tight,SINGLE,total_W,pur-s-93,445.0,445.0,0.0,1.0,wilcoxon,1.0
+tight,SINGLE,total_W,rye-s-93,229.5,229.5,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,total_W,sta-f-83,8.5,8.5,0.0,,no difference,
+tight,SINGLE,total_W,tre-s-92,496.5,387.0,29.0,0.03125,wilcoxon,0.3125
+tight,SINGLE,total_W,uta-s-92,512.5,512.5,0.0,0.25,wilcoxon,1.0
+tight,SINGLE,total_W,ute-s-92,117.5,117.5,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,total_W,yor-f-83,366.5,254.0,115.0,0.0078125,wilcoxon,0.09375
+tight,SINGLE,periods_added,car-f-92,0.0,0.0,0.0,0.125,wilcoxon,0.875
+tight,SINGLE,periods_added,car-s-91,0.0,1.0,0.0,0.25,wilcoxon,1.0
+tight,SINGLE,periods_added,ear-f-83,0.5,2.0,-1.0,0.0078125,wilcoxon,0.0859375
+tight,SINGLE,periods_added,hec-s-92,0.0,1.0,-1.0,0.03125,wilcoxon,0.28125
+tight,SINGLE,periods_added,kfu-s-93,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,SINGLE,periods_added,lse-f-91,0.0,0.0,0.0,0.125,wilcoxon,0.875
+tight,SINGLE,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+tight,SINGLE,periods_added,rye-s-93,0.0,0.0,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+tight,SINGLE,periods_added,tre-s-92,0.0,1.0,-1.0,0.03125,wilcoxon,0.28125
+tight,SINGLE,periods_added,uta-s-92,0.0,1.0,0.0,0.25,wilcoxon,1.0
+tight,SINGLE,periods_added,ute-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+tight,SINGLE,periods_added,yor-f-83,0.0,2.0,-1.0,0.0078125,wilcoxon,0.0859375
+tight,ONE_BLOCKER,total_D,car-f-92,6.0,5.0,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,car-s-91,9.5,8.0,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,ear-f-83,11.0,9.5,2.0,0.03125,wilcoxon,0.28125
+tight,ONE_BLOCKER,total_D,hec-s-92,3.5,2.5,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,kfu-s-93,6.5,6.5,0.0,1.0,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,lse-f-91,12.5,11.0,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,pur-s-93,11.0,11.0,0.0,,no difference,
+tight,ONE_BLOCKER,total_D,rye-s-93,4.5,4.5,0.0,,no difference,
+tight,ONE_BLOCKER,total_D,sta-f-83,1.0,1.0,0.0,,no difference,
+tight,ONE_BLOCKER,total_D,tre-s-92,9.5,9.0,0.0,0.5,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,uta-s-92,7.5,7.0,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,ute-s-92,3.0,3.0,0.0,1.0,wilcoxon,1.0
+tight,ONE_BLOCKER,total_D,yor-f-83,16.5,12.0,3.0,0.0078125,wilcoxon,0.078125
+tight,ONE_BLOCKER,total_W,car-f-92,607.0,428.0,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,car-s-91,736.5,585.0,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,ear-f-83,430.0,289.0,70.5,0.03125,wilcoxon,0.28125
+tight,ONE_BLOCKER,total_W,hec-s-92,269.0,215.5,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,kfu-s-93,90.0,90.0,0.0,1.0,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,lse-f-91,294.0,268.0,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,pur-s-93,445.0,445.0,0.0,,no difference,
+tight,ONE_BLOCKER,total_W,rye-s-93,229.5,229.5,0.0,,no difference,
+tight,ONE_BLOCKER,total_W,sta-f-83,8.5,8.5,0.0,,no difference,
+tight,ONE_BLOCKER,total_W,tre-s-92,496.5,490.5,0.0,0.5,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,uta-s-92,512.5,512.5,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,ute-s-92,117.5,117.5,0.0,1.0,wilcoxon,1.0
+tight,ONE_BLOCKER,total_W,yor-f-83,366.5,274.0,67.0,0.0078125,wilcoxon,0.078125
+tight,ONE_BLOCKER,periods_added,car-f-92,0.0,0.0,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,car-s-91,0.0,1.0,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,ear-f-83,0.5,1.0,-1.0,0.03125,wilcoxon,0.28125
+tight,ONE_BLOCKER,periods_added,hec-s-92,0.0,0.5,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,kfu-s-93,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,lse-f-91,0.0,0.0,0.0,0.125,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+tight,ONE_BLOCKER,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+tight,ONE_BLOCKER,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+tight,ONE_BLOCKER,periods_added,tre-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,uta-s-92,0.0,1.0,0.0,0.25,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,ute-s-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,ONE_BLOCKER,periods_added,yor-f-83,0.0,1.0,-1.0,0.015625,wilcoxon,0.15625
+tight,TBR,total_D,car-f-92,6.0,5.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,total_D,car-s-91,9.5,8.0,0.0,0.125,wilcoxon,1.0
+tight,TBR,total_D,ear-f-83,11.0,9.5,2.0,0.03125,wilcoxon,0.28125
+tight,TBR,total_D,hec-s-92,3.5,3.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,total_D,kfu-s-93,6.5,6.5,0.0,1.0,wilcoxon,1.0
+tight,TBR,total_D,lse-f-91,12.5,11.0,0.0,0.125,wilcoxon,1.0
+tight,TBR,total_D,pur-s-93,11.0,11.0,0.0,,no difference,
+tight,TBR,total_D,rye-s-93,4.5,4.5,0.0,,no difference,
+tight,TBR,total_D,sta-f-83,1.0,1.0,0.0,,no difference,
+tight,TBR,total_D,tre-s-92,9.5,9.5,0.0,1.0,wilcoxon,1.0
+tight,TBR,total_D,uta-s-92,7.5,7.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,total_D,ute-s-92,3.0,3.0,0.0,1.0,wilcoxon,1.0
+tight,TBR,total_D,yor-f-83,16.5,14.0,3.0,0.015625,wilcoxon,0.15625
+tight,TBR,total_W,car-f-92,607.0,428.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,total_W,car-s-91,736.5,585.0,0.0,0.125,wilcoxon,1.0
+tight,TBR,total_W,ear-f-83,430.0,289.0,70.5,0.03125,wilcoxon,0.28125
+tight,TBR,total_W,hec-s-92,269.0,215.5,0.0,0.25,wilcoxon,1.0
+tight,TBR,total_W,kfu-s-93,90.0,90.0,0.0,1.0,wilcoxon,1.0
+tight,TBR,total_W,lse-f-91,294.0,268.0,0.0,0.125,wilcoxon,1.0
+tight,TBR,total_W,pur-s-93,445.0,445.0,0.0,,no difference,
+tight,TBR,total_W,rye-s-93,229.5,229.5,0.0,,no difference,
+tight,TBR,total_W,sta-f-83,8.5,8.5,0.0,,no difference,
+tight,TBR,total_W,tre-s-92,496.5,496.5,0.0,1.0,wilcoxon,1.0
+tight,TBR,total_W,uta-s-92,512.5,512.5,0.0,0.25,wilcoxon,1.0
+tight,TBR,total_W,ute-s-92,117.5,117.5,0.0,1.0,wilcoxon,1.0
+tight,TBR,total_W,yor-f-83,366.5,319.0,57.0,0.015625,wilcoxon,0.15625
+tight,TBR,periods_added,car-f-92,0.0,0.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,periods_added,car-s-91,0.0,1.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,periods_added,ear-f-83,0.5,1.0,-1.0,0.03125,wilcoxon,0.3125
+tight,TBR,periods_added,hec-s-92,0.0,0.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,periods_added,kfu-s-93,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,TBR,periods_added,lse-f-91,0.0,0.0,0.0,0.125,wilcoxon,1.0
+tight,TBR,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+tight,TBR,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+tight,TBR,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+tight,TBR,periods_added,tre-s-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,TBR,periods_added,uta-s-92,0.0,1.0,0.0,0.25,wilcoxon,1.0
+tight,TBR,periods_added,ute-s-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+tight,TBR,periods_added,yor-f-83,0.0,1.0,-1.0,0.03125,wilcoxon,0.3125
+official,RECOMPUTE,total_D,car-f-92,5.0,615.0,-609.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,car-s-91,7.5,1404.5,-1397.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,ear-f-83,10.0,278.0,-268.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,hec-s-92,3.5,18.5,-14.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,kfu-s-93,6.5,85.0,-79.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,lse-f-91,11.0,509.5,-501.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,pur-s-93,11.0,3634.5,-3622.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,rye-s-93,4.5,179.0,-175.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,sta-f-83,1.0,16.0,-14.0,0.03125,wilcoxon,0.03125
+official,RECOMPUTE,total_D,tre-s-92,8.5,720.5,-714.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,uta-s-92,7.0,698.5,-691.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,ute-s-92,3.0,31.5,-28.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_D,yor-f-83,15.5,595.5,-580.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,car-f-92,367.5,40397.0,-39953.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,car-s-91,544.0,78304.5,-77766.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,ear-f-83,331.5,8868.5,-8665.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,hec-s-92,269.0,854.0,-656.5,0.009765625,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,kfu-s-93,90.0,1875.5,-1799.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,lse-f-91,256.5,10892.0,-10720.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,pur-s-93,437.5,93226.0,-92788.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,rye-s-93,222.0,11844.0,-11613.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,sta-f-83,8.5,600.0,-585.5,0.03125,wilcoxon,0.03125
+official,RECOMPUTE,total_W,tre-s-92,416.5,30803.5,-30430.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,uta-s-92,512.5,35703.5,-35199.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,ute-s-92,117.5,1784.5,-1695.0,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,total_W,yor-f-83,324.5,16970.5,-16650.5,0.001953125,wilcoxon,0.025390625
+official,RECOMPUTE,periods_added,car-f-92,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,car-s-91,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,ear-f-83,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,hec-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+official,RECOMPUTE,periods_added,kfu-s-93,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,lse-f-91,0.0,1.0,-1.0,0.015625,wilcoxon,0.078125
+official,RECOMPUTE,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,tre-s-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+official,RECOMPUTE,periods_added,uta-s-92,0.0,0.0,0.0,,no difference,
+official,RECOMPUTE,periods_added,ute-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+official,RECOMPUTE,periods_added,yor-f-83,0.0,0.5,-0.5,0.0625,wilcoxon,0.25
+official,SINGLE,total_D,car-f-92,5.0,5.0,0.0,,no difference,
+official,SINGLE,total_D,car-s-91,7.5,7.5,0.0,,no difference,
+official,SINGLE,total_D,ear-f-83,10.0,8.5,1.0,0.0625,wilcoxon,0.25
+official,SINGLE,total_D,hec-s-92,3.5,2.0,1.0,0.03125,wilcoxon,0.15625
+official,SINGLE,total_D,kfu-s-93,6.5,6.5,0.0,,no difference,
+official,SINGLE,total_D,lse-f-91,11.0,10.0,0.0,1.0,wilcoxon,1.0
+official,SINGLE,total_D,pur-s-93,11.0,11.0,0.0,,no difference,
+official,SINGLE,total_D,rye-s-93,4.5,4.5,0.0,,no difference,
+official,SINGLE,total_D,sta-f-83,1.0,1.0,0.0,,no difference,
+official,SINGLE,total_D,tre-s-92,8.5,8.0,0.0,0.25,wilcoxon,0.75
+official,SINGLE,total_D,uta-s-92,7.0,7.0,0.0,,no difference,
+official,SINGLE,total_D,ute-s-92,3.0,3.0,0.0,0.5,wilcoxon,1.0
+official,SINGLE,total_D,yor-f-83,15.5,11.0,3.0,0.0078125,wilcoxon,0.046875
+official,SINGLE,total_W,car-f-92,367.5,367.5,0.0,,no difference,
+official,SINGLE,total_W,car-s-91,544.0,544.0,0.0,,no difference,
+official,SINGLE,total_W,ear-f-83,331.5,250.5,14.5,0.0625,wilcoxon,0.25
+official,SINGLE,total_W,hec-s-92,269.0,193.5,57.5,0.03125,wilcoxon,0.15625
+official,SINGLE,total_W,kfu-s-93,90.0,90.0,0.0,,no difference,
+official,SINGLE,total_W,lse-f-91,256.5,256.5,0.0,1.0,wilcoxon,1.0
+official,SINGLE,total_W,pur-s-93,437.5,437.5,0.0,,no difference,
+official,SINGLE,total_W,rye-s-93,222.0,222.0,0.0,,no difference,
+official,SINGLE,total_W,sta-f-83,8.5,8.5,0.0,,no difference,
+official,SINGLE,total_W,tre-s-92,416.5,387.0,0.0,0.25,wilcoxon,0.75
+official,SINGLE,total_W,uta-s-92,512.5,512.5,0.0,,no difference,
+official,SINGLE,total_W,ute-s-92,117.5,117.5,0.0,0.5,wilcoxon,1.0
+official,SINGLE,total_W,yor-f-83,324.5,239.5,73.0,0.0078125,wilcoxon,0.046875
+official,SINGLE,periods_added,car-f-92,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,car-s-91,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,ear-f-83,0.0,0.5,-0.5,0.0625,wilcoxon,0.25
+official,SINGLE,periods_added,hec-s-92,0.0,1.0,-1.0,0.03125,wilcoxon,0.15625
+official,SINGLE,periods_added,kfu-s-93,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,lse-f-91,0.0,0.0,0.0,1.0,wilcoxon,1.0
+official,SINGLE,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,tre-s-92,0.0,0.0,0.0,0.25,wilcoxon,0.75
+official,SINGLE,periods_added,uta-s-92,0.0,0.0,0.0,,no difference,
+official,SINGLE,periods_added,ute-s-92,0.0,0.0,0.0,0.5,wilcoxon,1.0
+official,SINGLE,periods_added,yor-f-83,0.0,1.0,-1.0,0.0078125,wilcoxon,0.046875
+official,ONE_BLOCKER,total_D,car-f-92,5.0,5.0,0.0,,no difference,
+official,ONE_BLOCKER,total_D,car-s-91,7.5,7.5,0.0,,no difference,
+official,ONE_BLOCKER,total_D,ear-f-83,10.0,9.0,0.0,0.125,wilcoxon,0.5
+official,ONE_BLOCKER,total_D,hec-s-92,3.5,2.5,0.0,0.125,wilcoxon,0.5
+official,ONE_BLOCKER,total_D,kfu-s-93,6.5,6.5,0.0,,no difference,
+official,ONE_BLOCKER,total_D,lse-f-91,11.0,10.5,0.0,1.0,wilcoxon,1.0
+official,ONE_BLOCKER,total_D,pur-s-93,11.0,11.0,0.0,,no difference,
+official,ONE_BLOCKER,total_D,rye-s-93,4.5,4.5,0.0,,no difference,
+official,ONE_BLOCKER,total_D,sta-f-83,1.0,1.0,0.0,,no difference,
+official,ONE_BLOCKER,total_D,tre-s-92,8.5,8.5,0.0,,no difference,
+official,ONE_BLOCKER,total_D,uta-s-92,7.0,7.0,0.0,,no difference,
+official,ONE_BLOCKER,total_D,ute-s-92,3.0,3.0,0.0,1.0,wilcoxon,1.0
+official,ONE_BLOCKER,total_D,yor-f-83,15.5,12.5,2.5,0.03125,wilcoxon,0.15625
+official,ONE_BLOCKER,total_W,car-f-92,367.5,367.5,0.0,,no difference,
+official,ONE_BLOCKER,total_W,car-s-91,544.0,544.0,0.0,,no difference,
+official,ONE_BLOCKER,total_W,ear-f-83,331.5,282.5,0.0,0.125,wilcoxon,0.5
+official,ONE_BLOCKER,total_W,hec-s-92,269.0,215.5,0.0,0.125,wilcoxon,0.5
+official,ONE_BLOCKER,total_W,kfu-s-93,90.0,90.0,0.0,,no difference,
+official,ONE_BLOCKER,total_W,lse-f-91,256.5,256.5,0.0,1.0,wilcoxon,1.0
+official,ONE_BLOCKER,total_W,pur-s-93,437.5,437.5,0.0,,no difference,
+official,ONE_BLOCKER,total_W,rye-s-93,222.0,222.0,0.0,,no difference,
+official,ONE_BLOCKER,total_W,sta-f-83,8.5,8.5,0.0,,no difference,
+official,ONE_BLOCKER,total_W,tre-s-92,416.5,416.5,0.0,,no difference,
+official,ONE_BLOCKER,total_W,uta-s-92,512.5,512.5,0.0,,no difference,
+official,ONE_BLOCKER,total_W,ute-s-92,117.5,117.5,0.0,1.0,wilcoxon,1.0
+official,ONE_BLOCKER,total_W,yor-f-83,324.5,281.5,51.0,0.03125,wilcoxon,0.15625
+official,ONE_BLOCKER,periods_added,car-f-92,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,car-s-91,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,ear-f-83,0.0,0.0,0.0,0.125,wilcoxon,0.5
+official,ONE_BLOCKER,periods_added,hec-s-92,0.0,0.5,0.0,0.125,wilcoxon,0.5
+official,ONE_BLOCKER,periods_added,kfu-s-93,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,lse-f-91,0.0,0.0,0.0,1.0,wilcoxon,1.0
+official,ONE_BLOCKER,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,tre-s-92,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,uta-s-92,0.0,0.0,0.0,,no difference,
+official,ONE_BLOCKER,periods_added,ute-s-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+official,ONE_BLOCKER,periods_added,yor-f-83,0.0,1.0,-1.0,0.03125,wilcoxon,0.15625
+official,TBR,total_D,car-f-92,5.0,5.0,0.0,,no difference,
+official,TBR,total_D,car-s-91,7.5,7.5,0.0,,no difference,
+official,TBR,total_D,ear-f-83,10.0,9.0,0.0,0.125,wilcoxon,0.625
+official,TBR,total_D,hec-s-92,3.5,3.0,0.0,0.25,wilcoxon,0.75
+official,TBR,total_D,kfu-s-93,6.5,6.5,0.0,,no difference,
+official,TBR,total_D,lse-f-91,11.0,10.5,0.0,1.0,wilcoxon,1.0
+official,TBR,total_D,pur-s-93,11.0,11.0,0.0,,no difference,
+official,TBR,total_D,rye-s-93,4.5,4.5,0.0,,no difference,
+official,TBR,total_D,sta-f-83,1.0,1.0,0.0,,no difference,
+official,TBR,total_D,tre-s-92,8.5,8.5,0.0,,no difference,
+official,TBR,total_D,uta-s-92,7.0,7.0,0.0,,no difference,
+official,TBR,total_D,ute-s-92,3.0,3.0,0.0,1.0,wilcoxon,1.0
+official,TBR,total_D,yor-f-83,15.5,13.0,0.0,0.125,wilcoxon,0.625
+official,TBR,total_W,car-f-92,367.5,367.5,0.0,,no difference,
+official,TBR,total_W,car-s-91,544.0,544.0,0.0,,no difference,
+official,TBR,total_W,ear-f-83,331.5,282.5,0.0,0.125,wilcoxon,0.625
+official,TBR,total_W,hec-s-92,269.0,215.5,0.0,0.25,wilcoxon,0.75
+official,TBR,total_W,kfu-s-93,90.0,90.0,0.0,,no difference,
+official,TBR,total_W,lse-f-91,256.5,256.5,0.0,1.0,wilcoxon,1.0
+official,TBR,total_W,pur-s-93,437.5,437.5,0.0,,no difference,
+official,TBR,total_W,rye-s-93,222.0,222.0,0.0,,no difference,
+official,TBR,total_W,sta-f-83,8.5,8.5,0.0,,no difference,
+official,TBR,total_W,tre-s-92,416.5,416.5,0.0,,no difference,
+official,TBR,total_W,uta-s-92,512.5,512.5,0.0,,no difference,
+official,TBR,total_W,ute-s-92,117.5,117.5,0.0,1.0,wilcoxon,1.0
+official,TBR,total_W,yor-f-83,324.5,286.5,0.0,0.125,wilcoxon,0.625
+official,TBR,periods_added,car-f-92,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,car-s-91,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,ear-f-83,0.0,0.0,0.0,0.125,wilcoxon,0.625
+official,TBR,periods_added,hec-s-92,0.0,0.0,0.0,0.25,wilcoxon,0.75
+official,TBR,periods_added,kfu-s-93,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,lse-f-91,0.0,0.0,0.0,1.0,wilcoxon,1.0
+official,TBR,periods_added,pur-s-93,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,rye-s-93,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,sta-f-83,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,tre-s-92,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,uta-s-92,0.0,0.0,0.0,,no difference,
+official,TBR,periods_added,ute-s-92,0.0,0.0,0.0,1.0,wilcoxon,1.0
+official,TBR,periods_added,yor-f-83,0.0,0.0,0.0,0.125,wilcoxon,0.625

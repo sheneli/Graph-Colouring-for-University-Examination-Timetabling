@@ -1,0 +1,15 @@
+{
+  "method": "TBR",
+  "requirements": 18,
+  "met": 17,
+  "coverage": 0.9444444444444444,
+  "target_gt_95pct": false,
+  "unmet": [
+    "Q2"
+  ],
+  "hard_group_all_met": true,
+  "tests": {
+    "total": 124,
+    "passed": 124
+  }
+}

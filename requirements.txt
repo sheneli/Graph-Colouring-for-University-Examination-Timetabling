@@ -1,0 +1,9 @@
+# Exact versions used for every reported experiment (results/environment.json).
+# Python 3.13.16 (CPython), Linux x86_64.
+numpy==2.5.3
+scipy==1.18.1
+ortools==9.15.6755
+networkx==3.6.1
+matplotlib==3.11.2
+pandas==3.0.5
+pytest==8.4.2
